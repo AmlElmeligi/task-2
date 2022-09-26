@@ -1,0 +1,367 @@
+@font-face {
+  font-family: 'montserrat';
+  src: url('../fonts/montserrat/Montserrat-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'courgette';
+  src: url('../fonts/courgette/Courgette-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+.main {
+  width: 100%;
+  height:100px ;
+  padding: 0 70%;
+  padding-top: 20px;
+  background-color: rgb(199, 199, 204 ,0.5);
+  display: flex;
+  position: fixed;
+  top: 2px;
+ }
+
+ .logo {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  right: 1000px;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  right: 470px;
+  width: 60%;
+  font-family: 'montserrat';
+  font-size: 15px;
+  padding: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.menu a:hover {
+  color: red;
+  transition: all 0.5s;
+}
+
+.icon {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  right: 440px;
+  width: 15%;
+
+ }
+
+ .icon:hover {
+  color: red;
+  transition: all 0.5s;
+ }
+
+
+ /* ######################################################## */
+
+
+
+ .pic {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/image_9.jpg);
+  font-size: 70px;
+  color: white;
+  font-family: 'montserrat';
+  text-align: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.text {
+  width: 20%;
+  display: flex;
+  padding-left: 25px;
+ 
+}
+
+.text a {
+  color: black;
+  text-decoration: none;
+  font-family: 'montserrat';
+  color: #999;
+  font-size: small;
+}
+
+.text a:hover {
+  color: red;
+  transition: all0 0.5s;
+}
+
+
+/* ############################################### */
+
+
+
+.all{
+  margin: 70px 30px 0px 70px;
+  width: 100%;
+  height: 30vh;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 60% 25%;
+  
+}
+
+
+.all .lab1 img{
+  padding: 10px;
+
+}
+
+.all .lab1 img:hover {
+   width: 620px;
+   height: 470px;
+   transition: all 2s;
+}
+
+.lab2{
+  border: 1px black solid;
+  margin: 7px;
+  padding: 27px;
+  position: relative;
+  right: 80px;
+  text-align: center;
+  background-color: #c1bebe17 ;
+  font-size: 5px;
+  width: 70%;
+}
+
+.all .lab2 .one i{
+ position: relative;
+ top: 9px;
+ left: 5px;
+  width: 35px;
+  height: 42px;
+  background-color: black;
+  color: white;
+}
+
+.all .lab2 .one input{
+  font-size: 15px;
+  padding: 10px;
+  width: 80%;
+  height: 40%;
+  position: relative;
+  top: 20px;
+  left: 15px;
+}
+
+.all .lab2 h3{
+  padding: 20px;
+  position: relative;
+  top: 5px;
+  color: black;
+  font-size:xx-large;
+}
+
+
+.all .lab2 .k input{
+  border: 0px;
+  border-bottom: 1px solid black;
+  font-size: 13px;
+  padding: 10px 18px 8px 1px; ;
+  width: 250px;
+  background-color: #c1bebe17 ;
+}
+
+
+.all .lab2 .k{
+  margin-bottom: 10px; 
+}
+
+/* #################################################### */
+
+.big {
+  background-color: #c9c5c5c2 ;
+
+}
+
+.h1 {
+  text-align: center;
+  font-family: 'courgette';
+  font-size: 35px;
+  color: rgb(170, 54, 54);
+  position: relative;
+  top: 20px;
+}
+
+.h2 {
+  text-align: center;
+  font-weight:600 ;
+  font-size: 50px;
+  font-family: 'poppins';
+}
+
+.h3 {
+  text-align: center;
+  max-width: max-content;
+  padding: 20px 230px;
+  position: relative;
+  bottom: 15px;
+
+}
+
+.all2 {
+  margin: 70px 30px 0px 70px;
+  width: 100%;
+  height: 30vh;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 60% 30%; 
+ 
+}
+
+.h4 {
+  font-family: 'courgette';
+  font-size: 35px;
+  padding-left: 200px;
+  padding-top: 25px;
+  margin-left:20px ;
+  color: rgb(170, 54, 54);
+}
+
+.h5 {
+  font-family: 'poppins';
+  padding-left: 175px;
+  padding-top: 5px;
+  margin-left:20px ;
+  font-weight:60 ;
+  font-size: 50px;
+  position: relative;
+  bottom: 30px;
+}
+
+.h6 {
+  padding-left: 150px;
+  padding-top: 5px;
+  margin-left:20px ;
+  max-width: max-content;
+  position: relative;
+  bottom: 45px;
+  
+}
+
+.src {
+  position: relative;
+  right: 160px;
+  bottom: 50px;
+  border-radius: 50%;
+}
+
+.src img:hover {
+  width: 420px;
+  height: 420px;
+  transition: all 2.5s;
+}
+
+
+/* #################################################### */
+
+.all3 {
+  margin: 70px 30px 0px 70px;
+  width: 100%;
+  height: 30vh;
+  display: grid;
+  column-gap: 30px;
+  grid-template-columns: 40% 40%; 
+
+}
+
+.src2 {
+  padding-left: 150px;
+  padding-top: 50px;
+}
+
+.h7 {
+  position: relative;
+  left: 240px;
+  top: 130px;
+  font-family: 'courgette';
+  font-size: 35px;
+  color: rgb(170, 54, 54);
+}
+
+.h8 {
+  position: relative;
+  left: 170px;
+  top: 100px;
+  font-family: 'poppins';
+  font-weight:60 ;
+  font-size: 50px;
+}
+
+.h9 {
+  position: relative;
+  left: 140px;
+  top: 90px;
+  max-width: max-content;
+  font-size: 17px;
+}
+
+.src2 img:hover {
+  width: 420px;
+  height: 420px;
+  transition: all 2.5s;
+}
+/* ############################################################################## */
+
+.src3 {
+  cursor: pointer;
+}
+
+.src3 img:hover  {
+
+cursor: pointer;
+  transition: all 2.5s;
+}
+
+
+
+/* ############################################################################## */
+
+.h10 {
+  font-family: 'courgette';
+  font-size: 35px;
+  color: rgb(170, 54, 54);
+  text-align: center;
+}
+
+.h11 {
+  font-family: 'poppins';
+  font-weight:60 ;
+  font-size: 50px;
+  text-align: center;
+}
+
+/* ############################################################################## */
+
